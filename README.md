@@ -13,7 +13,7 @@ DDoS Resilience and Server Stability Assessment Tool
    `git clone https://github.com/alirexo/rxddos.git`</br></br>
     
  
- - Now go to cloned directory and run `requrments</br>
+ - Now go to cloned file and install`directories`</br>
 
     $cd RxDDoS</br></br>
  
@@ -26,3 +26,5 @@ DDoS Resilience and Server Stability Assessment Tool
  - Now run the script
   
     `python RxDDoS.py`</br></br>
+
+    
