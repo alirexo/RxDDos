@@ -10,21 +10,25 @@ DDoS Resilience and Server Stability Assessment Tool
 
 - Clone the repository first 
    
-   `git clone https://github.com/alirexo/rxddos.git`</br></br>
+   `$$ git clone https://github.com/alirexo/rxddos.git`</br></br>
     
  
- - Now go to cloned file and install`directories`</br>
+ - Now go to cloned file and install <b>directories</b></br>
 
-    $cd RxDDoS</br></br>
+    `$$ cd RxDDoS`</br></br>
  
  - Then install the libraries in the requirements.txt file
   
-    `pip install -r requirements.txt`</br></br>
+    `$$ pip install -r requirements.txt`</br></br>
  
   
   
  - Now run the script
   
-    `python RxDDoS.py`</br></br>
+    `$$ python RxDDoS.py`</br></br>
+
+ - Sample command
+
+ - `$$ python RxDDoS.py -s Ip -p port`
 
     
