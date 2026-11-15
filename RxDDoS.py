@@ -1,4 +1,4 @@
-# utf-8 لهف
+# utf-8 git
 # python 3.3.2+ RxDDoS  Script 
 # by Ali Atabak
 # For testing and legal purposes only
@@ -118,6 +118,46 @@ def get_parameters():
 		thr = opts.turbo
 
 
+def show_banner():
+    import os
+    import platform
+    from datetime import datetime
+
+    os.system("cls" if os.name == "nt" else "clear")
+
+    GREEN = "\033[92m"
+    CYAN = "\033[96m"
+    WHITE = "\033[97m"
+    YELLOW = "\033[93m"
+    RESET = "\033[0m"
+
+    banner = r"""
+  ██████╗ ██╗  ██╗██████╗ ██████╗  ██████╗ ███████╗
+  ██╔══██╗╚██╗██╔╝██╔══██╗██╔══██╗██╔═══██╗██╔════╝
+  ██████╔╝ ╚███╔╝ ██║  ██║██║  ██║██║   ██║███████╗
+  ██╔══██╗ ██╔██╗ ██║  ██║██║  ██║██║   ██║╚════██║
+  ██║  ██║██╔╝ ██╗██████╔╝██████╔╝╚██████╔╝███████║
+  ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝
+"""
+
+    print(GREEN + banner + RESET)
+    print(CYAN + "  " + "─" * 54)
+    print("  SERVER RESILIENCE & STABILITY ASSESSMENT")
+    print("  " + "─" * 54 + RESET)
+
+    print(f"{WHITE}  VERSION      {CYAN}1.0.0{RESET}")
+    print(f"{WHITE}  DEVELOPER    {CYAN}Ali Atabak / ReXo{RESET}")
+    print(f"{WHITE}  PYTHON       {CYAN}{platform.python_version()}{RESET}")
+    print(f"{WHITE}  PLATFORM     {CYAN}{platform.system()}{RESET}")
+    print(f"{WHITE}  DATE         {CYAN}{datetime.now():%Y-%m-%d %H:%M:%S}{RESET}")
+    print(f"{WHITE}  GITHUB       {CYAN}github.com/alirexo/RxDDos{RESET}")
+
+    print(CYAN + "  " + "─" * 54 + RESET)
+    print(YELLOW + "  [!] AUTHORIZED SECURITY TESTING ONLY" + RESET)
+    print(GREEN + "  [+] Console initialized successfully" + RESET)
+    print()
+
+
 # reading headers
 global data
 headers = open("Rxheaders.txt", "r")
@@ -129,6 +169,7 @@ w = Queue()
 
 
 if __name__ == '__main__':
+	show_banner()
 	if len(sys.argv) < 2:
 		usage()
 	get_parameters()
