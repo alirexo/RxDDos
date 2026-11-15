@@ -1,6 +1,16 @@
 # RxDDos
 DDoS Resilience and Server Stability Assessment Tool
 
+<h1 align="center">RxDDoS</h1>
+
+<p align="center">
+  DDoS Resilience and Server Stability Assessment Tool
+</p>
+
+<p align="center">
+  <img src="preview.png" alt="RxDDoS Terminal Preview" width="900">
+</p>
+
 <h3><p align="center">Rules</p></h3>
 "This tool is intended solely for testing purposes, and any unlawful or unauthorized use of it is the responsibility of the user."
 
